@@ -1,0 +1,124 @@
+/* Container */
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .bike-details-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Michroma', sans-serif;
+  }
+  
+  /* Main page container */
+  .details-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  /* Card Layout */
+  .details-card {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  /* Image Section (Left) */
+ 
+  
+  .bike-image {
+    width: 100%;
+    height: 180px;
+  }
+  
+  /* Info Section (Right) */
+  .info-section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Brand & Model in a Single Line */
+  .brand-model {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Michroma', sans-serif;
+  }
+  
+  .bike-brand, .bike-model {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Year Centered */
+  .bike-year {
+    font-size: 22px;
+    color: black;
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  /* Description */
+  .bike-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  /* Price */
+  .bike-price {
+    font-size: 20px;
+    color: #e63946;
+    margin-top: 10px;
+  }
+
+  .bike-km{
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  /* Button */
+  .add-to-cart {
+    padding: 12px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+    text-transform: uppercase;
+  }
+  
+  .add-to-cart:hover {
+    background: darkred;
+    color: white;
+  }
+  
+  /* Loading */
+  .loading {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+  }
+  

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.sell-your-bike {
+  text-align: left;
+  background-color: whitesmoke;
+  padding:15px;
+  margin-bottom: 10px;
+}
+
+/* Title */
+.sell-title {
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  font-family: 'Michroma', sans-serif;
+}
+
+.sell-title .line {
+  width: 2cm;
+  height: 2px;
+  background-color: black;
+  margin-right: 15px;
+}
+
+.sell-title .featured-text {
+  color: red;
+  margin-right: 10px;
+}
+
+.sell-title .inventory-text {
+  color: black;
+}
+
+/* Description */
+.sell-description {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Steps Container */
+.sell-steps {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+/* Number Circle */
+.step-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid red;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Step Text */
+.step {
+  text-align: center;
+  width: 250px;
+}
+
+.step h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.step p {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+/* Horizontal Line with Dots */
+.step-line {
+  width: 50px;
+  height: 4px;
+  background-color: red;
+  position: relative;
+}
+
+.step-line::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Button */
+.sell-button {
+  margin-top: 30px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-family: 'Michroma', sans-serif;
+}
+
+.sell-button:hover {
+  background-color: darkred;
+  color: white;
+}

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px; 
+    background-color: whitesmoke;
+    font-family: 'Michroma', sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 2px solid #FF0000;
+}
+
+.shop-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5px;
+    font-family: 'Michroma', sans-serif;
+    text-decoration: none;
+}
+
+.shop-name-main {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    position: relative;
+}
+
+.shop-name-main::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color: #FF0000; /* Red underline */
+}
+
+.shop-name-sub {
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 2px;
+    letter-spacing: 0.2rem;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.navbar-menu li {
+    text-transform: uppercase;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+    color: #FF0000;
+}
+
+.login{
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-size: 12px;
+    font-family: 'Michroma', sans-serif;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.login:hover {
+    color: #FF0000;
+    background-color: rgb(228, 226, 226);
+}
+
+.user-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .user-btn {
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-size: 12px;
+    font-family: 'Michroma', sans-serif;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.user-btn:hover {
+    color: red;
+    background-color: whitesmoke;
+}
+
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: whitesmoke;
+    border-radius: 5px;
+    min-width: 120px;
+    margin: 0px;
+  }
+  
+  .dropdown-item {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #ddd;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .logout-btn{
+    border: none;
+    font-family: 'Michroma', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background: #f0f0f0;
+  }
+  
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-menu {
+        display: flex;
+        gap: 10px;
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    .login-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-menu {
+        display: flex;
+        gap: 5px;
+        overflow-x: auto;
+        white-space: nowrap;
+        width: calc(100% - 70px);
+    }
+
+    .login-btn {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+    }
+}

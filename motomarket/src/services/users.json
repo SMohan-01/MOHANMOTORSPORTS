@@ -1,0 +1,415 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Roman Reings",
+      "email": "roman123@gmail.com",
+      "password": "123456",
+      "phoneNumber": "1234567890",
+      "address": {
+        "doorNo": "1",
+        "street": "WWE Street",
+        "city": "USA",
+        "pincode": "654321"
+      },
+      "interest": [
+        {
+          "id": 10,
+          "brandName": "KTM",
+          "model": "RC 8C",
+          "year": 2023,
+          "description": "Track-focused limited edition KTM superbike.",
+          "price": 3500000,
+          "image": "/static/media/RC8.20acc37c81a252e0ecd2.jpg",
+          "Km": 1100
+        },
+        {
+          "id": 11,
+          "brandName": "KTM",
+          "model": "Super Duke R",
+          "year": 2024,
+          "description": "The Beast – KTM’s powerful streetfighter with 180 HP.",
+          "price": 2900000,
+          "image": "/static/media/SuperDuke.d8bfd605a61bc860f03d.jpg",
+          "Km": 18000
+        },
+        {
+          "id": 3,
+          "brandName": "Kawasaki",
+          "model": "Ninja H2",
+          "year": 2024,
+          "description": "The Kawasaki Ninja H2R is the ultimate track-only hyperbike, built for sheer speed and power. It features a supercharged 998cc inline-four engine, producing a mind-blowing 310 hp (326 hp with ram air), making it one of the most powerful production motorcycles ever built. Designed for aerodynamic efficiency, it comes with carbon-fiber winglets, an aggressive trellis frame, and advanced electronics, including launch control, traction control, and a quick shifter. With top speeds exceeding 400 km/h, the H2R is a true engineering marvel, crafted for adrenaline-fueled racing performance. ",
+          "price": 3500000,
+          "image": "/static/media/H2.09c484aaa02fa493680a.jpg",
+          "Km": 10000
+        },
+        {
+          "id": 5,
+          "brandName": "MV Agusta",
+          "model": "Superveloce 1000 Oro",
+          "year": 2024,
+          "description": "A retro-futuristic superbike with Italian craftsmanship.",
+          "price": 4200000,
+          "image": "/static/media/Superveloce.be232e8266137b93596f.jpg",
+          "Km": 7000
+        }
+      ],
+      "sell": [
+        {
+          "brandName": "Ktm",
+          "model": "Duke250",
+          "year": "2021",
+          "price": "240000",
+          "km": "15000",
+          "description": "Best In the 250cc"
+        },
+        {
+          "brandName": "Yamaha",
+          "model": "R15M",
+          "year": "2020",
+          "price": "210000",
+          "km": "20000",
+          "description": "Best In The 150cc",
+          "image": ""
+        },
+        {
+          "brandName": "MV Agusta",
+          "model": "Rush",
+          "year": "2020",
+          "price": "4000000",
+          "km": "999",
+          "description": "Best Looking Naked Bike.."
+        }
+      ],
+      "servicesAndModifications": [
+        {
+          "serviceType": "General Service",
+          "bikeName": "KTM Duke 200",
+          "serviceDateTime": "2025-03-31T11:00"
+        },
+        {
+          "serviceType": "Manual Service/Modification",
+          "bikeName": "Yamaha R15M",
+          "serviceDateTime": "2025-04-01T10:59"
+        }
+      ],
+      "myPurchase": [
+        {
+          "product": [
+            {
+              "id": 2,
+              "name": "Shoei X-Fourteen",
+              "image": "/static/media/ShoeiX14.eea88d8a478bbdb98ab8.jpg",
+              "price": 60000
+            }
+          ],
+          "orderNumber": 481,
+          "shippingInformation": {
+            "doorNo": "1",
+            "street": "WWE Street",
+            "city": "USA",
+            "pincode": "654321"
+          },
+          "amount": 60000
+        },
+        {
+          "product": [
+            {
+              "id": 6,
+              "name": "Scorpion EXO-R1 Air",
+              "image": "/static/media/scorpionexo-exo-r1-air.c7910afd7c887974a056.jpg",
+              "price": 50000
+            }
+          ],
+          "orderNumber": 726,
+          "shippingInformation": {
+            "doorNo": "1",
+            "street": "WWE Street",
+            "city": "USA",
+            "pincode": "654321"
+          },
+          "amount": 50000
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Brock Lesnar",
+      "email": "brock5@gmail.com",
+      "password": "Brock@12",
+      "phoneNumber": "1234567890",
+      "address": {
+        "doorNo": "1",
+        "street": "WWE Street",
+        "city": "USA",
+        "pincode": "654321"
+      },
+      "interest": [
+        {
+          "id": 1,
+          "brandName": "Ducati",
+          "model": "Panigale V4R",
+          "year": 2024,
+          "description": "The Ducati Panigale V4 R is a race-bred superbike designed for extreme performance. It features a 998cc Desmosedici Stradale R engine, producing up to 240.5 hp with a racing exhaust and specially formulated oil. Built for track dominance, it has aerodynamic winglets, a lightweight aluminum chassis, and an advanced electronics suite, including traction control, slide control, and a quick shifter. The Ohlins suspension, Brembo brakes, and carbon-fiber components ensure precision handling and top-tier performance, making it one of the fastest and most advanced superbikes available. 🚀🔥",
+          "price": 4600000,
+          "image": "/static/media/PanigaleV4R.ecb757d22244ced4a717.jpg",
+          "Km": 5000
+        },
+        {
+          "id": 2,
+          "brandName": "Kawasaki",
+          "model": "Ninja H2R",
+          "year": 2024,
+          "description": "The Kawasaki Ninja H2R is the ultimate track-only hyperbike, built for sheer speed and power. It features a supercharged 998cc inline-four engine, producing a mind-blowing 310 hp (326 hp with ram air), making it one of the most powerful production motorcycles ever built. Designed for aerodynamic efficiency, it comes with carbon-fiber winglets, an aggressive trellis frame, and advanced electronics, including launch control, traction control, and a quick shifter. With top speeds exceeding 400 km/h, the H2R is a true engineering marvel, crafted for adrenaline-fueled racing performance. ",
+          "price": 7900000,
+          "image": "/static/media/H2R.50cbe420179adccef1be.jpg",
+          "Km": 2000
+        }
+      ],
+      "sell": [
+        {
+          "brandName": "Harley Davidson",
+          "model": "Model 1",
+          "year": "2003",
+          "price": "400000",
+          "km": "10004",
+          "description": "Best Looking Bike"
+        },
+        {
+          "brandName": "MV Agusta",
+          "model": "Brutalee1000RR",
+          "year": "2020",
+          "price": "399999",
+          "km": "1000",
+          "description": "Aggressive Looking"
+        }
+      ],
+      "servicesAndModifications": [
+        {
+          "serviceType": "General Service",
+          "bikeName": "Harley Davidson",
+          "serviceDateTime": "2025-04-05T11:40"
+        },
+        {
+          "serviceType": "Manual Service/Modification",
+          "bikeName": "MV Agusta",
+          "serviceDateTime": "2025-04-02T10:00"
+        }
+      ],
+      "myPurchase": [
+        {
+          "product": [
+            {
+              "id": 7,
+              "name": "LS2 Challenger Carbon",
+              "image": "/static/media/ls2.dd8bb902b1ef14a65b5b.webp",
+              "price": 70000
+            }
+          ],
+          "orderNumber": 364,
+          "shippingInformation": {
+            "doorNo": "1",
+            "street": "WWE Street",
+            "city": "USA",
+            "pincode": "654321"
+          },
+          "amount": 70000
+        },
+        {
+          "product": [
+            {
+              "id": 9,
+              "name": "Shark Race-R Pro GP",
+              "image": "/static/media/Shark Motogp.f339d5070fcbac69bd32.jpg",
+              "price": 130000
+            }
+          ],
+          "orderNumber": 118,
+          "shippingInformation": {
+            "doorNo": "1",
+            "street": "WWE Street",
+            "city": "USA",
+            "pincode": "654321"
+          },
+          "amount": 130000
+        },
+        {
+          "product": [
+            {
+              "id": 4,
+              "name": "Arai Corsair-X",
+              "image": "/static/media/Arai.293f4b1613a599de63ed.jpg",
+              "price": 30000
+            }
+          ],
+          "orderNumber": 647,
+          "shippingInformation": {
+            "doorNo": "1",
+            "street": "WWE Street",
+            "city": "USA",
+            "pincode": "654321"
+          },
+          "amount": 30000
+        },
+        {
+          "product": [],
+          "orderNumber": 735,
+          "shippingInformation": {
+            "doorNo": "1",
+            "street": "WWE Street",
+            "city": "USA",
+            "pincode": "654321"
+          },
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Mohan",
+      "email": "mohans012002@gmail.com",
+      "password": "Mohan@01",
+      "phoneNumber": "9092053331",
+      "address": {
+        "doorNo": "5",
+        "street": "1 Street",
+        "city": "CHENNAI",
+        "pincode": "654321"
+      },
+      "interest": [],
+      "sell": [],
+      "servicesAndModifications": [],
+      "myPurchase": []
+    },
+    {
+      "id": "4",
+      "name": "Seth Rollins",
+      "email": "seth@gmail.com",
+      "password": "Seth@123",
+      "phoneNumber": "9876543210",
+      "address": {
+        "doorNo": "10",
+        "street": "WWE Street",
+        "city": "NEW YORK",
+        "pincode": "654321"
+      },
+      "interest": [
+        {
+          "id": 4,
+          "brandName": "BMW",
+          "model": "HP4 Race",
+          "year": 2023,
+          "description": "The BMW HP4 Race is a limited-production, track-only superbike featuring a full carbon-fiber frame and wheels, making it one of the lightest and most advanced motorcycles ever built. Powered by a 999cc inline-four engine, it delivers 215 hp at 13,900 rpm and comes with race-spec Öhlins suspension, Brembo GP4-PR brakes, and a 2D dashboard with data logging. With only 750 units produced worldwide, the HP4 Race is a collector's dream and a track weapon, offering unparalleled power-to-weight ratio and precision handling. ",
+          "price": 8600000,
+          "image": "/static/media/Hp4 Race.ee1f81c6daba0c8d7e2d.jpg",
+          "Km": 6000
+        }
+      ],
+      "sell": [
+        {
+          "brandName": "yamaha",
+          "model": "R15",
+          "year": "2020",
+          "price": "209999",
+          "km": "5000",
+          "description": "Budget Sports Bike"
+        }
+      ],
+      "servicesAndModifications": [
+        {
+          "serviceType": "General Service",
+          "bikeName": "R15M",
+          "serviceDateTime": "2025-03-31T11:00"
+        }
+      ],
+      "myPurchase": [
+        {
+          "product": [
+            {
+              "id": 1,
+              "name": "AGV K1 Helmet",
+              "image": "/static/media/agvk1.3cbd92555fefee23f7c6.jpg",
+              "price": 15000
+            }
+          ],
+          "orderNumber": 175,
+          "shippingInformation": {
+            "doorNo": "10",
+            "street": "WWE Street",
+            "city": "NEW YORK",
+            "pincode": "654321"
+          },
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Akash",
+      "email": "akash@gmail.com",
+      "password": "Akash@01",
+      "phoneNumber": "1234567890",
+      "address": {
+        "doorNo": "2",
+        "street": "2nd Street",
+        "city": "CHENNAI",
+        "pincode": "654321"
+      },
+      "interest": [
+        {
+          "id": 4,
+          "brandName": "BMW",
+          "model": "HP4 Race",
+          "year": 2023,
+          "description": "The BMW HP4 Race is a limited-production, track-only superbike featuring a full carbon-fiber frame and wheels, making it one of the lightest and most advanced motorcycles ever built. Powered by a 999cc inline-four engine, it delivers 215 hp at 13,900 rpm and comes with race-spec Öhlins suspension, Brembo GP4-PR brakes, and a 2D dashboard with data logging. With only 750 units produced worldwide, the HP4 Race is a collector's dream and a track weapon, offering unparalleled power-to-weight ratio and precision handling. ",
+          "price": 8600000,
+          "image": "/static/media/Hp4 Race.ee1f81c6daba0c8d7e2d.jpg",
+          "Km": 6000
+        }
+      ],
+      "sell": [
+        {
+          "brandName": "MV Agusta",
+          "model": "Rush",
+          "year": "2021",
+          "price": "500000",
+          "km": "999",
+          "description": "Best in The MV"
+        }
+      ],
+      "servicesAndModifications": [
+        {
+          "serviceType": "General Service",
+          "bikeName": "KTM Duke 250",
+          "serviceDateTime": "2025-04-01T11:00"
+        }
+      ],
+      "myPurchase": [
+        {
+          "product": [
+            {
+              "id": 1,
+              "name": "AGV K1 Helmet",
+              "image": "/static/media/agvk1.3cbd92555fefee23f7c6.jpg",
+              "price": 15000
+            },
+            {
+              "id": 2,
+              "name": "Shoei X-Fourteen",
+              "image": "/static/media/ShoeiX14.eea88d8a478bbdb98ab8.jpg",
+              "price": 60000
+            }
+          ],
+          "orderNumber": 884,
+          "shippingInformation": {
+            "doorNo": "2",
+            "street": "2nd Street",
+            "city": "CHENNAI",
+            "pincode": "654321"
+          },
+          "amount": 75000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+/* Container */
+.address-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Input field */
+  .address-input {
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .address-input:focus {
+    border-color: black;
+  }
+  
+  /* Buttons container */
+  .address-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  /* Cancel Button */
+  .cancel-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: darkgray;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .cancel-btn:hover {
+    background: black;
+  }
+
+  .cancel-btn:enabled{
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* Save Button */
+  .save-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .save-btn:hover {
+    background: darkred;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

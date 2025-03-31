@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.cart-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f8f8f8;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cart-wrapper {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e60000;
+  text-align: center;
+  font-family: 'Michroma', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.billing-section, .payment-container {
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.billing-header, .payment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.billing-header:hover, .payment-header:hover {
+  background: whitesmoke;
+  border-radius: 5px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.form-group {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #e60000;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.payment-options {
+  margin-top: 10px;
+}
+
+.payment-options .form-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.payment-options input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.payment-options label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+.debit-card-info {
+  margin-top: 15px;
+  padding: 15px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.debit-card-info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.debit-card-info .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+
+.debit-card-info .form-group label {
+  font-weight: bold;
+  color: #444;
+}
+
+.debit-card-info .form-group input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.debit-card-info .form-group input:focus {
+  border-color: red;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.debit-card-info .card-details {
+  display: flex;
+  gap: 15px;
+}
+
+.debit-card-info .card-details .form-group {
+  flex: 1;
+}
+
+.cart-footer {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  top: 20px;
+}
+
+.cart-footer h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Michroma', sans-serif;
+  color: red;
+}
+
+.cart-footer .cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart-footer .cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.cart-footer .cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-footer .cart-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.cart-footer .cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-footer .cart-item-details h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+  margin: 0;
+}
+
+.cart-footer .cart-item-details p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 0;
+}
+
+.cart-footer .total-price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  margin-top: 15px;
+}
+
+.cart-footer button {
+  margin: 20px auto; /* Centers horizontally */
+  display: block; /* Ensures margin auto works */
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cart-footer button:hover {
+  background: darkred;
+}
+
+.place-order-btn:hover {
+  background: darkred;
+}
+
+.place-order-btn:active {
+  transform: scale(0.98);
+}
+
+.place-order-btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+
+
+@media (max-width: 768px) {
+  .debit-card-info .card-details {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart-wrapper {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .cart-title {
+    font-size: 20px;
+  }
+
+  .billing-header {
+    font-size: 14px;
+  }
+}

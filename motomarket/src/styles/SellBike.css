@@ -1,0 +1,74 @@
+/* SellBike.css */
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.sell-bike-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 80px;
+  padding-top: 10px;
+  background: #e4e2e2;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.sell-bike-container h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: red;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: 'Michroma', sans-serif;
+}
+
+.sell-bike-container .form-group {
+  margin-bottom: 15px;
+}
+
+.sell-bike-container input,
+.sell-bike-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.sell-bike-container input:focus,
+.sell-bike-container textarea:focus {
+  border-color: red;
+  box-shadow: 0px 0px 5px rgba(255, 102, 0, 0.5);
+}
+
+.sell-bike-container textarea {
+  height: 100px;
+  resize: none;
+}
+
+.sell-bike-container .login-btn {
+  width: 100%;
+  padding: 12px;
+  background:red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  font-family: 'Michroma', sans-serif;
+  text-transform: uppercase;
+}
+
+.sell-bike-container .login-btn:hover {
+  background: darkred;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .sell-bike-container {
+    width: 90%;
+    padding: 20px;
+  }
+}

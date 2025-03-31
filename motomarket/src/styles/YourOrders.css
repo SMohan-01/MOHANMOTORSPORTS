@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.your-orders-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .your-orders-container h3 {
+    color:red;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+
+  }
+  h4{
+    font-size: 20px;
+  }
+  
+  .your-orders-container p {
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .order-products {
+    margin-top: 8px;
+    padding-top: 5px;
+    background: #f8f8f8;
+    border-radius: 8px;
+  }
+  
+  .order-products div {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-products div:last-child {
+    border-bottom: none;
+  }
+  
+  .order-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .order-buttons button {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  
+  .shop-btn {
+    background: red;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .shop-btn:hover {
+    background: darkred;
+  }
+  

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+h1{
+  font-family: 'Michroma', sans-serif;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 25px;
+  padding: 10px 15px;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.search-bar svg {
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.search-btn{
+  border: none;
+}
+
+/* Inventory Page Styling */
+.inventory-container {
+  text-align: center;
+  background-color: whitesmoke;
+  color: black;
+  padding: 30px;
+  min-height: 100vh;
+  text-transform: uppercase;
+  margin-top: -30px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Title */
+.inventory-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: red;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+}
+
+/* Grid Layout - 4 cards in a row */
+.bike-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Bike Card */
+.bike-card {
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(255, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.bike-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 25px rgba(255, 0, 0, 0.5);
+}
+
+/* Bike Name */
+.bike-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+/* Bike Image */
+.bike-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Info Section */
+.bike-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+/* Footer Section */
+.bike-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+/* Price */
+.bike-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+}
+
+/* View Details Button */
+.view-details {
+  padding: 8px 12px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+/* Button Hover */
+.view-details:hover {
+  background-color: darkred;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

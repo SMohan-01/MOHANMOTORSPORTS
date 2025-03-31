@@ -1,0 +1,35 @@
+.home-container {
+    width: 100vw;
+    min-height: 100vh; /* Ensures content stacks properly */
+    display: flex;
+    flex-direction: column; /* Ensures stacked layout */
+    /* align-items: center;
+    justify-content: center; */
+    background-color: whitesmoke;
+    padding: 0;
+  }
+  
+  .garage-image {
+    width: 100vw;
+    max-height: 80vh;
+    object-fit: cover;
+    margin: 8px;
+  }
+  
+  body {
+    overflow-x: hidden;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  

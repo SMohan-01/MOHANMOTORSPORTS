@@ -1,0 +1,184 @@
+/* Container */
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.featured-inventory {
+  width: 100%;
+  background: #f5f5f5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.featured-inventory h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+  font-family: 'Michroma', sans-serif;
+  text-align: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.featured-inventory h2::before {
+  content: "";
+  width: 2cm;
+  height: 2px;
+  background: #222;
+  margin-left: 15px;
+}
+
+.featured-inventory h2 span {
+  color: red; /* "Featured" in red */
+  margin-right: 5px;
+}
+
+
+/* Inventory Wrapper */
+.inventory-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* Bike List */
+.bike-list {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Bike Card */
+.bike-card {
+  position: relative; /* Needed for button positioning */
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 1;
+  max-width: 250px; /* Ensures 4 bikes fit in a row */
+}
+
+.bike-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Bike Image */
+.bike-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Navigation Buttons */
+.nav-button {
+  position: absolute;
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Left Button beside 1st bike */
+.bike-card:first-child .left {
+  left: -20px;
+}
+
+/* Right Button beside 4th bike */
+.bike-card:last-child .right {
+  right: -20px;
+}
+
+/* Hover Effects */
+.nav-button:hover {
+  background: #cc5200;
+}
+
+.view-all-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.view-all-btn {
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none; /* Remove default link styling */
+  display: inline-block;
+  transition: background 0.3s ease-in-out;
+  font-family: 'Michroma', sans-serif;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.view-all-btn:hover {
+  background-color: darkred;
+  color: white;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .bike-list {
+    flex-wrap: wrap;
+  }
+
+  .bike-card {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bike-list {
+    flex-wrap: wrap;
+  }
+
+  .bike-card {
+    max-width: 180px;
+  }
+
+  .nav-button {
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bike-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .bike-card {
+    max-width: 160px;
+  }
+
+  .nav-button {
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+  }
+}
