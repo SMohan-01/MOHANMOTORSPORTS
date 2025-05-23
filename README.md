@@ -2,10 +2,6 @@
 
 _A full-stack web application for motorsports enthusiasts to buy, sell, and modify vehicles._  
 
-## Application Video
-Click Here - https://drive.google.com/file/d/1BJ8_PmIgSRbHzeKQaX_Nd9F3xouoUctD/view?usp=drive_link
-
-
 ## 🚀 About the Project  
 **MohanMotorsports** is a marketplace for motorsports enthusiasts where users can:  
 ✅ **Buy & Sell** vehicles and accessories  
